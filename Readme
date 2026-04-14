@@ -1,0 +1,58 @@
+# Housing Price Prediction using Linear Regression
+
+# Project Overview
+This project implements Linear Regression to predict housing prices based on various features such as area, number of bedrooms, bathrooms, and other amenities.
+The model is built using Python, Pandas, Scikit-learn, and Matplotlib and follows a complete machine learning workflow from data preprocessing to evaluation.
+
+# Objective
+* To understand and implement Linear Regression
+* To predict house prices based on input features
+* To evaluate model performance using standard metrics
+
+# Technologies Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+# Dataset
+* Dataset used: Housing Price Prediction Dataset
+* Source: Kaggle
+* File: https://www.kaggle.com/datasets/harishkumardatalab/housing-price-prediction
+
+# Steps Performed
+# 1. Data Loading
+* Uploaded dataset using Google Colab
+* Loaded using Pandas
+
+# 2. Data Preprocessing
+* Checked for missing values
+* Converted categorical variables using One-Hot Encoding
+* Prepared dataset for model training
+
+# 3. Feature Selection
+* Independent variables (X): All features except price
+* Dependent variable (y): Price
+
+# 4. Train-Test Split
+* Split dataset into:
+  * 80% Training data
+  * 20% Testing data
+
+# 5. Model Building
+* Used LinearRegression() from Scikit-learn
+* Trained model on training data
+
+# 6. Prediction
+* Predicted house prices using test data
+
+# Results
+* The model successfully predicts house prices based on input features
+* Visualization shows relationship between actual and predicted values
+
+# Visualization
+* Scatter plot of Actual vs Predicted Prices
+* Correlation heatmap for feature relationships
+
